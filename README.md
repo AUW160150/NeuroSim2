@@ -20,7 +20,7 @@ NeuroSim uses AI agents and Bayesian optimization to **simulate experiments befo
 ```
 User Input → Groq AI → Bayesian Optimization → Daytona Workspaces → Results
               ↓                                        ↓
-         Literature                            Galileo Tracking
+         Literature (browserUse)                           Galileo Tracking
          Analysis
 
 - **Real commercial value**: $600K+ saved per optimized protocol
@@ -51,6 +51,17 @@ User Input → Groq AI → Bayesian Optimization → Daytona Workspaces → Resu
 - "This ensures reproducibility - same inputs always give same results"
 - "We can spin up 10 workspaces in parallel for faster optimization"
 - "In production, this scales infinitely"
+
+### Browser Use Integration (Designed)
+**Production Architecture:**
+- Scrapes PubMed, arXiv, bioRxiv for relevant papers
+- Extracts experimental parameters from publications
+- Builds evidence-based recommendations
+
+**Demo Mode:**
+- Uses curated database of 4 landmark papers
+- Ensures demo consistency and speed
+- See `agents/literature_agent.py` for Browser Use integration points
 
 ## 🚀 Tech Stack
 
