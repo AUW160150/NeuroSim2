@@ -13,16 +13,44 @@ Brain stimulation experiments cost **$50,000 each** and take **3 months**. Resea
 NeuroSim uses AI agents and Bayesian optimization to **simulate experiments before running them**, finding optimal parameters in minutes instead of months.
 
 
+> "NeuroSim simulates brain experiments using Bayesian optimization and AI. 
+> It finds optimal parameters in minutes, not months, before we touch a single animal."
+
+**Architecture Diagram:**
+```
+User Input → Groq AI → Bayesian Optimization → Daytona Workspaces → Results
+              ↓                                        ↓
+         Literature                            Galileo Tracking
+         Analysis
+
 - **Real commercial value**: $600K+ saved per optimized protocol
 - **Technical sophistication**: Bayesian optimization + multi-agent AI
 - **Live demo**: Working end-to-end system
 - **Clear impact**: Reduces animal use (NIH 3Rs priority)
 
-### Best Use of Daytona ($1,000)
+###
+> "Watch what happens:"
+1. **Literature Agent**: "Finding 12 relevant papers..."
+2. **Groq Analysis**: "LLM analyzing protocols..."
+3. **Daytona**: "Spinning up isolated workspaces..." (Show dashboard if possible)
+4. **Optimization**: "Running 25 Bayesian iterations..."
+5. **Galileo**: "Tracking every decision..."
+
+## Business Model:
+> "Target customers: Every neuroscience lab and every pharma company doing 
+> neuromodulation. That's 10,000+ potential customers globally.
+> Subscription model: $500 per month per lab. That's $60 million ARR at full scale
+
 - Isolated simulation environments ensure reproducibility
 - Parallel workspace execution (10+ simultaneous)
 - Version-controlled experiment tracking
 - Production-ready architecture
+
+### Why Daytona is Essential
+- "Each simulation runs in an isolated Daytona workspace"
+- "This ensures reproducibility - same inputs always give same results"
+- "We can spin up 10 workspaces in parallel for faster optimization"
+- "In production, this scales infinitely"
 
 ## 🚀 Tech Stack
 
