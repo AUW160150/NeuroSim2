@@ -32,7 +32,7 @@ User Input → Groq AI → Bayesian Optimization → Daytona Workspaces → Resu
 > "Watch what happens:"
 1. **Literature Agent**: "Finding 12 relevant papers..."
 2. **Groq Analysis**: "LLM analyzing protocols..."
-3. **Daytona**: "Spinning up isolated workspaces..." (Show dashboard if possible)
+3. **Daytona**: "Spinning up isolated workspaces..." 
 4. **Optimization**: "Running 25 Bayesian iterations..."
 5. **Galileo**: "Tracking every decision..."
 
